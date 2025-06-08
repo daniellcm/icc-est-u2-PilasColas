@@ -1,18 +1,61 @@
-## Getting Started
+# Estructuras Lineales - Pilas Colas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Información General
 
-## Folder Structure
+- **Título:** Estructuras Lineales - Pilas Colas
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiantes:** Daniel Cajas
+- **Fecha:** 08/06/2025
+- **Profesor:** Ing. Pablo Torres
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Versión 2.0.2
+Esta versión incluye la implementación de los siguientes ejercicios:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Ejercicio 1: Validación de signos en cadenas
+- Método ValidadorSignos.esValido(String cadena) que verifica si una cadena con paréntesis, llaves y corchetes está correctamente balanceada.
+- Utiliza una estructura de datos tipo pila (Stack) para hacer el seguimiento de los signos de apertura y cierre.
 
-## Dependency Management
+### Ejercicio 2: Ordenación de una pila (Stack)
+- Clase OrdenadoPila con el método ordenar(Stack original) que ordena los elementos del stack de menor a mayor.
+- Solo utiliza pilas adicionales para ordenar sin copiar datos a otras estructuras.
+- La pila resultante tiene los elementos más pequeños en el tope.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Estructura Stack
+- Implementación propia de una pila genérica (o basada en Object) que soporta operaciones básicas: push, pop, peek y isEmpty.
+- Utilizada como base para los ejercicios 1 y 2.
+
+Esta versión ha sido probada y funciona correctamente con los casos de prueba indicados en la práctica.
+---
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+---
+## 🧑‍💻 Ejemplo de Salida
+
+```plaintext
+EJERCICIO 1:
+------------------------------
+Ejemplo 1: 
+true
+Ejemplo 2: 
+false
+-------------------------------
+EJERCICIO 2:
+-------------------------------
+Ejemplo: 
+1 2 4 5 
