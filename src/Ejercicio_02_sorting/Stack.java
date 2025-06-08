@@ -1,7 +1,7 @@
 package Ejercicio_02_sorting;
 
 public class Stack {
-     private Object[] data;
+    private Object[] data;
     private int top;
 
     public Stack() {
