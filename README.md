@@ -49,13 +49,18 @@ Para ejecutar el proyecto:
 
 ```plaintext
 EJERCICIO 1:
-------------------------------
-Ejemplo 1: 
+-------------------------
+Ejemplo 1:
+´([]){}´
 true
-Ejemplo 2: 
+ 
+Ejemplo 2:
+´({)}´
 false
--------------------------------
+
 EJERCICIO 2:
--------------------------------
-Ejemplo: 
+-------------------------
+Pila sin ordenar:
+5 1 4 2
+Pila ordenada:
 1 2 4 5 
